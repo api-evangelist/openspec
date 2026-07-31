@@ -1,0 +1,32 @@
+generated: '2026-07-20'
+method: searched
+source: npm registry (registry.npmjs.org/@fission-ai/openspec) + github.com/Fission-AI/OpenSpec
+packages:
+- name: "@fission-ai/openspec"
+  registry: npm
+  official: true
+  language: JavaScript/TypeScript
+  kind: cli
+  description: AI-native system for spec-driven development. Installs the `openspec` CLI.
+  install: npm install -g @fission-ai/openspec@latest
+  bin: openspec
+  latest_version: 1.6.0
+  first_published: '2025-09-06'
+  latest_published: '2026-07-10'
+  version_count: 41
+  license: MIT
+  engines: "node >=20.19.0"
+  homepage: https://github.com/Fission-AI/OpenSpec
+  repository: https://github.com/Fission-AI/OpenSpec
+  registry_url: https://www.npmjs.com/package/@fission-ai/openspec
+  keywords:
+  - openspec
+  - specs
+  - cli
+  - ai
+  - development
+notes: >-
+  OpenSpec ships a single first-party npm package that installs the `openspec`
+  CLI binary; there is no client SDK because OpenSpec has no HTTP/REST API
+  (the docs state "no API keys, no MCP required"). The legacy unscoped `openspec`
+  npm package (last published 2022, owner openspecio) is unrelated to this project.

@@ -1,0 +1,106 @@
+generated: '2026-07-20'
+method: searched
+source: https://openspec.dev/docs/reference/cli + npm @fission-ai/openspec
+name: OpenSpec CLI
+binary: openspec
+official: true
+install:
+- method: npm
+  command: npm install -g @fission-ai/openspec@latest
+package: "@fission-ai/openspec"
+global_flags:
+- flag: "--version, -V"
+  description: Display version number
+- flag: "--no-color"
+  description: Disable color output
+- flag: "--help, -h"
+  description: Show command help
+command_groups:
+- group: Setup
+  commands:
+  - name: init
+    description: Initialize OpenSpec in your project; creates folder structure and configures tools.
+  - name: update
+    description: Refresh instruction files after upgrading the CLI.
+- group: Stores
+  commands:
+  - name: store setup
+    description: Create and register a new standalone OpenSpec repository.
+  - name: store register
+    description: Register an existing local store folder.
+  - name: store unregister
+    description: Remove a store registration without deleting files.
+  - name: store remove
+    description: Remove a store registration and delete its folder.
+  - name: store list
+    description: List locally registered stores.
+  - name: store doctor
+    description: Check store registration, metadata, and Git presence.
+- group: Health & Context
+  commands:
+  - name: doctor
+    description: Report relationship health for the resolved root.
+  - name: context
+    description: Assemble the working set (root plus referenced stores).
+- group: Worksets
+  commands:
+  - name: workset create
+    description: Create a personal, named view of folders you work on together.
+  - name: workset list
+    description: Browse saved worksets.
+  - name: workset open
+    description: Launch a workset in your preferred tool.
+  - name: workset remove
+    description: Delete a saved workset view.
+- group: Browsing
+  commands:
+  - name: list
+    description: List changes or specs in your project.
+  - name: view
+    description: Display an interactive dashboard for exploration.
+  - name: show
+    description: Display details of a specific change or spec.
+- group: Validation
+  commands:
+  - name: validate
+    description: Check changes and specs for structural issues.
+- group: Lifecycle
+  commands:
+  - name: archive
+    description: Finalize completed changes and merge delta specs.
+- group: Workflow
+  commands:
+  - name: new change
+    description: Create a change directory with optional metadata.
+  - name: status
+    description: Display artifact completion status for a change.
+  - name: instructions
+    description: Get enriched instructions for creating artifacts.
+  - name: templates
+    description: Show resolved template paths for all artifacts.
+  - name: schemas
+    description: List available workflow schemas.
+- group: Schemas
+  commands:
+  - name: schema init
+    description: Create a new project-local schema.
+  - name: schema fork
+    description: Copy an existing schema for customization.
+  - name: schema validate
+    description: Validate a schema's structure and templates.
+  - name: schema which
+    description: Show where a schema resolves from.
+- group: Configuration
+  commands:
+  - name: config
+    description: View and modify settings.
+- group: Utility
+  commands:
+  - name: feedback
+    description: Submit feedback about OpenSpec via GitHub.
+  - name: completion
+    description: Manage shell completions (bash, zsh, fish, powershell).
+notes: >-
+  The `openspec` CLI complements the AI slash commands (e.g. /opsx:propose,
+  /opsx:apply, /opsx:archive) that run inside the coding assistant's chat.
+  The CLI handles project setup, validation, status inspection, and management.

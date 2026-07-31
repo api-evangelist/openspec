@@ -1,0 +1,39 @@
+# Documentation
+
+
+- **Start here**
+- [OpenSpec Documentation](/docs): Welcome. This is the home for everything OpenSpec.
+- [Installation](/docs/installation)
+- [Getting Started](/docs/getting-started): This guide explains how OpenSpec works after you've installed and initialized it. For installation instructions, see the main README or the Installation guide. New to the whole docs set? The…
+- [How Commands Work](/docs/how-commands-work): The one thing to know: OpenSpec has two kinds of commands, and they run in two different places.
+
+- **Understand it**
+- [Core Concepts at a Glance](/docs/overview): OpenSpec is a lightweight agreement layer between you and your AI. You write down what a change should do, the AI drafts the details, you both look at the same plan, and only then does code get…
+- [Concepts](/docs/core-concepts): This guide explains the core ideas behind OpenSpec and how they fit together. For practical usage, see Getting Started and Workflows.
+- [Workflows](/docs/the-workflow): This guide covers common workflow patterns for OpenSpec and when to use each one. For basic setup, see Getting Started. For command reference, see Commands.
+- [OPSX Workflow](/docs/opsx)
+- [Explore First](/docs/explore): /opsx:explore is your thinking partner. Reach for it whenever you have a problem but not yet a plan. It investigates your codebase, weighs options with you, and clarifies what you actually want, all…
+
+- **Guides**
+- [Examples & Recipes](/docs/examples): Real changes, start to finish. Each recipe shows the commands you'd type and what you'd see back, so you can match your situation to a pattern and copy it. These use the default core commands…
+- [Writing Good Specs](/docs/writing-specs): You rarely write a spec from a blank page. You describe a change in plain language, /opsx:propose drafts the requirements and scenarios, and then you make them good. This page is about that last part…
+- [Reviewing a Change](/docs/reviewing-changes): OpenSpec's whole promise is that you and your AI agree on what to build before any code is written. That agreement only means something if you actually read what the AI drafted. This page is about…
+- [Using OpenSpec in an Existing Project](/docs/existing-projects): You do not document your whole codebase to start. You write specs only for what you're about to change. That's the single most important thing to know about adopting OpenSpec on an existing project,…
+- [Editing & Iterating on a Change](/docs/editing-changes): Every artifact in a change is just a Markdown file you can edit at any time. There is no locked "planning phase," no approval gate, no special edit mode to enter. Want to change the proposal after…
+- [Customization](/docs/customization): OpenSpec provides three levels of customization:
+- [Multi-Language Guide](/docs/multi-language): Configure OpenSpec to generate artifacts in languages other than English.
+- [OpenSpec on a Team](/docs/team-workflow): Everything in the other guides works the same whether you're solo or on a team of twenty. What changes on a team is the questions around the edges: where do the specs live, how do teammates review a…
+- [Stores: Plan in Its Own Repo](/docs/stores)
+
+- **Reference**
+- Reference
+  - [Commands](/docs/reference/slash-commands): This is the reference for OpenSpec's slash commands. These commands are invoked in your AI coding assistant's chat interface (e.g., Claude Code, Cursor, Windsurf).
+  - [CLI Reference](/docs/reference/cli): The OpenSpec CLI (openspec) provides terminal commands for project setup, validation, status inspection, and management. These commands complement the AI slash commands (like /opsx:propose)…
+  - [Supported Tools](/docs/reference/supported-tools): OpenSpec works with many AI coding assistants. When you run openspec init, OpenSpec configures selected tools using your active profile/workflow selection and delivery mode.
+  - [OpenSpec Agent Contract](/docs/reference/agents): Machine-readable surfaces of the openspec CLI, verified against src/ (capstone audit, 2026-06-11). Every shape below is documented from the emitting code.
+
+- **Help**
+- [FAQ](/docs/faq): Quick answers to the questions people ask most. If your question is really a "something is broken" question, Troubleshooting is the better page. If you want a term defined, see the Glossary.
+- [Troubleshooting](/docs/troubleshooting): Concrete fixes for concrete problems. Each entry names a symptom, explains the likely cause in a sentence, and gives you the fix. If you don't see your issue here, the FAQ may help, and the Discord…
+- [Glossary](/docs/glossary): Every OpenSpec term in one place, defined in plain language. Skim it once and the rest of the docs read faster.
+- [Migrating to OPSX](/docs/migration-guide): This guide helps you transition from the legacy OpenSpec workflow to OPSX. The migration is designed to be smooth—your existing work is preserved, and the new system offers more flexibility.

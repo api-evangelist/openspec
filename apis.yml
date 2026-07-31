@@ -1,8 +1,28 @@
 aid: openspec
 name: Openspec
-description: Openspec is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  OpenSpec (by Fission-AI) is an open-source, lightweight spec-driven development
+  (SDD) framework for AI coding assistants. It adds a durable spec layer so you
+  and your coding agent agree on what to build before any code is written: each
+  change gets its own folder with a proposal, specs, design, and tasks, following
+  a propose - apply - archive workflow. OpenSpec is a CLI and agent contract
+  (installed via npm, no API keys or MCP required) that works with 30+ AI tools
+  including Claude Code, Cursor, Windsurf, and Copilot via slash commands. A
+  Y Combinator company, OpenSpec has 60k+ GitHub stars and is building Workspaces
+  for teams needing multi-repo planning and collaboration.
 url: https://raw.githubusercontent.com/api-evangelist/openspec/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: open
+  trial: false
+  try_now: false
+  public: true
+  label: Open access
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/203414896?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +31,55 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
-- Company
+- Spec-Driven Development
+- AI Coding Assistants
+- Developer Tools
+- CLI
+- Specifications
+- Context Engineering
+- Open Source
+- Coding Agents
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://openspec.dev
+- type: DeveloperPortal
+  url: https://openspec.dev
+- type: Documentation
+  url: https://openspec.dev/docs
+- type: GettingStarted
+  url: https://openspec.dev/docs/getting-started
+- type: APIReference
+  url: https://openspec.dev/docs/reference/cli
+- type: SourceCode
+  url: https://github.com/Fission-AI/OpenSpec
+- type: GitHubOrganization
+  url: https://github.com/Fission-AI
+- type: ChangeLog
+  url: https://github.com/Fission-AI/OpenSpec/blob/main/CHANGELOG.md
+- type: Support
+  url: https://openspec.dev/docs/troubleshooting
+- type: Community
+  url: https://discord.gg/YctCnvvshC
+- type: Packages
+  url: packages/openspec-packages.yml
+- type: CLI
+  url: cli/openspec-cli.yml
+- type: LLMsTxt
+  url: llms/openspec-llms.txt
+- type: ChangeLog
+  url: changelog/openspec-changelog.yml
+- type: DomainSecurity
+  url: security/openspec-domain-security.yml
