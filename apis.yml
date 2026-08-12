@@ -53,6 +53,9 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: License
+  name: MIT
+  url: https://github.com/Fission-AI/OpenSpec/blob/main/LICENSE
 - type: Website
   url: https://openspec.dev
 - type: DeveloperPortal
