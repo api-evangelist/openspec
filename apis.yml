@@ -11,6 +11,18 @@ description: >-
   Y Combinator company, OpenSpec has 60k+ GitHub stars and is building Workspaces
   for teams needing multi-repo planning and collaboration.
 url: https://raw.githubusercontent.com/api-evangelist/openspec/refs/heads/main/apis.yml
+deliveryModel:
+  model: self-hosted
+  license: MIT
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: open
@@ -62,6 +74,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: IssueTracker
+  url: https://github.com/Fission-AI/OpenSpec/issues
+- type: Releases
+  url: https://github.com/Fission-AI/OpenSpec/releases
+- type: SecurityPolicy
+  url: https://github.com/Fission-AI/OpenSpec/blob/main/SECURITY.md
 - type: License
   name: MIT
   url: https://github.com/Fission-AI/OpenSpec/blob/main/LICENSE
