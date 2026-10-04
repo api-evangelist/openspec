@@ -51,7 +51,7 @@ tags:
 - CLI
 - Specification
 - Context Engineering
-- Open-Source
+- Open Source
 - Coding Agents
 tags_raw:
 - Spec-Driven Development
@@ -62,6 +62,7 @@ tags_raw:
 - Context Engineering
 - Open Source
 - Coding Agents
+- Open-Source
 apis: []
 x-enrichment:
   date: '2026-07-20'
